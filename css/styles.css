@@ -1,12 +1,12 @@
 :root {
-    --color-primary: #212121;
-    --color-secondary: #757575;
-
-    --color-white: #fff;
     --color-axion: #2196F3;
-}
+    --color-primary: #212121;
 
-body {
+    --color-secondary: #757575;
+    --color-white: #fff;
+    
+}
+body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     color: var(--color-primary);
@@ -14,7 +14,18 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--color-primary);
+}
+.logo{
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-axion);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+}
+
+.logo-studio {
+    color:#000;
 }
 
 .header-background {
@@ -29,7 +40,12 @@ a {
     font-weight: 500;
     letter-spacing: 0.02em;
 }
-
+.header-link:hover{
+    color: var(--color-axion);
+}
+.haeder-link:focus{
+    color: var(--color-axion);
+}
 .active-link {
     color: var(--color-axion);
     text-decoration: none;
@@ -140,10 +156,6 @@ p {
     letter-spacing: 0.03em;
 }
 
-.middle-section {
-    background-color: #F5F5F5;
-}
-
 .last-section {
     background-color: #F5F4FA;
 }
@@ -167,6 +179,7 @@ p {
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 
 .footer-email:hover {
@@ -222,7 +235,14 @@ p {
     border: none;
     cursor: pointer;
 }
-
+.button:hover{
+    color: var(--color-white);
+    background-color: var(--color-axion);
+}
+.button-focus{
+    color: var(--color-white);
+    background-color: var(--color-axion);
+}
 .types-background {
     background-color: #FFFFFF;
     border: 1px solid #EEEEEE;
@@ -241,4 +261,7 @@ p {
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
+}
+.logo-studio-footer {
+    color: #FFFFFF;
 }
